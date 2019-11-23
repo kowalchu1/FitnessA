@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".workout"
+            android:label="@string/title_activity_workout"></activity>
+        <activity
+            android:name=".CalendarA"
+            android:label="@string/title_activity_calendar" />
+        <activity
+            android:name=".Calendar"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>

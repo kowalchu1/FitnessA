@@ -1,16 +1,16 @@
-package com.example.fitnessapp.ui.dashboard;
+package com.example.fitnessapp.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class SlideshowViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-       // mText.setValue("This is dashboard fragment");
+        mText.setValue("This is slideshow fragment");
     }
 
     public LiveData<String> getText() {
